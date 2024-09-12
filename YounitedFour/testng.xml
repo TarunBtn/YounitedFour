@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="restapitest.NoxParseAssignmentUsingDoc"/>
+      <class name="restapitest.NoxParseAssignmentUsingUrl"/>
+      <class name="restapitest.NoxProfessionCompleteNormalized"/>
+      <class name="restapitest.NoxSkillLookupCodes"/>
+      <class name="restapitest.NoxSkillCompleteNormalized"/>
+      <class name="restapitest.NoxSkillLookup"/>
+      <class name="restapitest.NoxKVKByNumber"/>
+      <class name="restapitest.NoxKVKByName"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

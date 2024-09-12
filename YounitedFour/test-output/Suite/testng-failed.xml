@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="restapitest.TextkernMatchExtractDo">
+        <methods>
+          <include name="MatchExtractDo"/>
+        </methods>
+      </class> <!-- restapitest.TextkernMatchExtractDo -->
+      <class name="restapitest.TextkernCompleteNormlized">
+        <methods>
+          <include name="completeNormalized"/>
+        </methods>
+      </class> <!-- restapitest.TextkernCompleteNormlized -->
+      <class name="restapitest.Kvk">
+        <methods>
+          <include name="validateKvkNumber"/>
+        </methods>
+      </class> <!-- restapitest.Kvk -->
+      <class name="restapitest.TextkernProfnCompleteNormlized">
+        <methods>
+          <include name="professionsCompleteNormalized"/>
+        </methods>
+      </class> <!-- restapitest.TextkernProfnCompleteNormlized -->
+      <class name="restapitest.TextkernProfessionsSuggestSkills">
+        <methods>
+          <include name="ProfessionsSuggestSkills"/>
+        </methods>
+      </class> <!-- restapitest.TextkernProfessionsSuggestSkills -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
