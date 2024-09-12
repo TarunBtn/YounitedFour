@@ -29,9 +29,7 @@ public class NoxKVKByName {
 		System.out.println("Response data is: "+data);
 		
 		
-		
-		
-		
+	
 	}
 
 }
