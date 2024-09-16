@@ -17,6 +17,7 @@ public class NoxParseAssignmentUsingDoc {
 		RequestSpecification request=RestAssured.given();
 		request.header("Content-Type", "application/json");
 		request.header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoMElkIjpudWxsLCJ1c2VyIjoiNjZlMTYxNTg3OTY1NTZhOTY1MzBjYzdhIiwiaWF0IjoxNzI2MDQ2NTUyLCJleHAiOjQ4Nzk2NDY1NTIsImF1ZCI6IllvdW5pdGVkOlBBVCJ9.DN7HidIu2KsonQKZHcz-Fq30Yz_Z_pPbuE4jEf3NGDk");
+		
 		request.body("{\"uploaded-file\": \"Vacature Heerema.docx\"}");
 		
 		Response response=request.post(baseURL);
